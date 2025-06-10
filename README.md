@@ -22,5 +22,36 @@ Websiter Admin Url founder is a powerful Python tool designed to discover hidden
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/AdminFinderPro.git
-cd AdminFinderPro
+git clone 
+cd 
+
+pip3 install -r requirements.txt
+
+pip3 install requests beautifulsoup4 colorama
+
+python3 sigma_hunter.py https://example.com or example.com
+
+python3 sigma_hunter.py https://example.com --full -t 50 -T 10 -o results.csv -w wordlists/custom.txt
+
+  url                    Target URL to scan
+  -o, --output OUTPUT    Output file to save results (CSV format)
+  -t, --threads THREADS  Number of threads (default: 20)
+  -T, --timeout TIMEOUT  Timeout in seconds (default: 5)
+  -w, --wordlist WORDLIST
+                         Custom wordlist file
+  -f, --full             Enable comprehensive scan
+---
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/your-feature)
+
+Commit your changes (git commit -am 'Add some feature')
+
+Push to the branch (git push origin feature/your-feature)
+
+Create a new Pull Request
+Disclaimer
+This tool is intended for security research and unauthorized penetration testing only. Always use it on websites without explicit permission. The developers are not responsible for any misuse of this tool.
