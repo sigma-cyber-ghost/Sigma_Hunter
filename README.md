@@ -22,8 +22,8 @@ Websiter Admin Url founder is a powerful Python tool designed to discover hidden
 
 1. Clone the repository:
 ```bash
-git clone 
-cd 
+git clone https://github.com/sigma-cyber-ghost/Sigma_Hunter.git 
+cd Sigma_Hunter
 
 pip3 install -r requirements.txt
 
